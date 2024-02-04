@@ -7,3 +7,20 @@ class helloWorld extends Applet
     g.drawString("HEllo World",150,150);
   }
 }
+// using init() 
+import java.applet.Applet
+import java.awt.Graphics
+class drawRect extends Applet
+{
+  int x,y,w,h;
+  public void init(){
+    x=Iterger.praseInt(getparameter("xValue"));
+    y=Iterger.praseInt(getparameter("yValue"));
+    w=Iterger.praseInt(getparameter("wValue"));
+    h=Iterger.praseInt(getparameter("hValue"));
+  }
+  public void paint(Graphics g)
+  {
+    g.drawString("HEllo World",150,150);
+  }
+}
