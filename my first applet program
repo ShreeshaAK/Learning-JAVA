@@ -22,5 +22,6 @@ class drawRect extends Applet
   public void paint(Graphics g)
   {
     g.drawString("HEllo World",150,150);
+    g.drawRect(x,y,w,h);
   }
 }
